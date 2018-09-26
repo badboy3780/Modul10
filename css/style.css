@@ -93,12 +93,12 @@ menu{
     width: 332px;
     height: 75px;
     margin-bottom: 92px;
+    display: flex;
 }
 
 .logo-article{
     width: 32px;
     height: 66px;
-    float: left;
     cursor: pointer;
 }
 
@@ -130,6 +130,7 @@ menu{
 }
 
 .service-position-core{
+    display: flex;
     margin-bottom: 92px;
     width: 332px;
     height: 75px;
@@ -240,7 +241,7 @@ footer{
     font-size: 14px;
     margin-top: 24px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400; 
+    font-weight: 500; 
 }
 
 
@@ -339,7 +340,7 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/facebook.png);
+    background-image: url(D:\GitHub/Modul10/image/facebook.svg);
     background-repeat: no-repeat;
     background-position: center;   
     transform: translateX(-2%);
@@ -351,7 +352,7 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/twitter.png);
+    background-image: url(D:\GitHub/Modul10/image/twitter.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(2%);
@@ -364,7 +365,7 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/pinterest.png);
+    background-image: url(D:\GitHub/Modul10/image/pinterest.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(6%);
@@ -375,7 +376,7 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/instagram.png);
+    background-image: url(D:\GitHub/Modul10/image/instagram.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(9%);
@@ -411,25 +412,25 @@ button{
 
 
 .facebook:hover{
-    background-image: url(D:\GitHub/Modul10/image/facebook.png);
+    background-image: url(D:\GitHub/Modul10/image/facebook.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
 }
 .twitter:hover{
-    background-image: url(D:\GitHub/Modul10/image/twitter.png);
+    background-image: url(D:\GitHub/Modul10/image/twitter.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
 }
 .pinterest:hover{
-    background-image: url(D:\GitHub/Modul10/image/pinterest.png);
+    background-image: url(D:\GitHub/Modul10/image/pinterest.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
 }
 .instagram:hover{
-    background-image: url(D:\GitHub/Modul10/image/instagram.png);
+    background-image: url(D:\GitHub/Modul10/image/instagram.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
