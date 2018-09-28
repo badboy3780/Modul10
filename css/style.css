@@ -4,35 +4,51 @@ header{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1134px;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 113px;
+    position: relative;
 }
 
-.layer{
+.header__layer{
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     width: 100%;
-    height: 1000px;
+    height: 1134px;
     position: absolute;
     z-index: 2;
     top: 0px;
+    opacity: 0.99;
     
 }
 
 .logo{
+    margin-top: 16px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: white;
-    margin-right: 535px;
+    margin-right: 494px;
     cursor: pointer;
     z-index: 3;
 }
 
-.bar-menu{
+.bar-nav{
     font-size: 14px;
     margin-top: 30px;
+    margin-left: 58px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.bar-icon{
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 27px;
     margin-left: 58px;
     font-weight: 400;
     text-transform: uppercase;
@@ -44,6 +60,50 @@ header{
 ul{
     display: flex;
     justify-content: center;
+}
+
+.header__h1{
+    margin-top: 179px;
+    margin-bottom: 42px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 77px;
+    font-weight: 400;
+    color: white;
+    z-index: 3;
+}
+
+.header__h2{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    text-transform: uppercase;
+    font-size: 148px;
+    width: 802px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 124px;
+
+    
+}
+
+.header__button{
+    width: 160px;
+    height: 40px;  
+    margin: auto;
+    
+}
+
+.button-learn-more{
+    width: 160px;
+    height: 40px;
+    background: none;
+    border: 2px solid white;
+    z-index: 4;
+    cursor: pointer;
 }
 
 menu{
@@ -436,7 +496,7 @@ button{
     background-color: #f38181;
 }
 
-.bar-menu:hover{
+.bar-nav:hover{
     cursor: pointer;
     color: #fce38a;
     margin-top: 25px;
