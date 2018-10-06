@@ -11,7 +11,11 @@ header{
     position: relative;
 }
 
-.header__layer{
+a{
+    color: white;
+}
+
+.header-layer{
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     width: 100%;
     height: 1134px;
@@ -19,10 +23,16 @@ header{
     z-index: 2;
     top: 0px;
     opacity: 0.99;
-    
 }
 
-.logo{
+.container{
+    width: 1235px;   
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.header-logo{
     margin-top: 16px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -33,10 +43,9 @@ header{
     z-index: 3;
 }
 
-.bar-nav{
+.item-list__nav-first{
     font-size: 14px;
     margin-top: 30px;
-    margin-left: 58px;
     font-weight: 400;
     text-transform: uppercase;
     color: white;
@@ -45,7 +54,19 @@ header{
     cursor: pointer;
 }
 
-.bar-icon{
+.item-list__nav{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 55px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.item-list__icon{
     cursor: pointer;
     font-size: 14px;
     margin-top: 27px;
@@ -57,12 +78,12 @@ header{
     z-index: 3;
 }
 
-ul{
+.item-list{
     display: flex;
     justify-content: center;
 }
 
-.header__h1{
+.header__title{
     margin-top: 179px;
     margin-bottom: 42px;
     text-align: center;
@@ -74,7 +95,7 @@ ul{
     z-index: 3;
 }
 
-.header__h2{
+.header__subtitle{
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -86,15 +107,12 @@ ul{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 124px;
-
-    
 }
 
 .header__button{
     width: 160px;
     height: 40px;  
-    margin: auto;
-    
+    margin: auto;  
 }
 
 .button-learn-more{
@@ -109,10 +127,9 @@ ul{
 menu{
     width: 1200px;
     margin: auto;
-    
 }
 
-.name-section{
+.technology__name-section{
     cursor: pointer;
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -123,7 +140,7 @@ menu{
     margin-top: 42px;
 }
 
-.after-name-section{
+.technology__after-name-section{
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -132,7 +149,7 @@ menu{
     text-align: center;
     text-transform: uppercase;
 }
-.border-after{
+.technology__border-after{
     width: 60px;
     height: 3px;
     background: #f38181;
@@ -169,7 +186,7 @@ menu{
     cursor: pointer;
 }
 
-.title{
+.info__title{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -180,7 +197,7 @@ menu{
     cursor: pointer;
 }
 
-.info-position{
+.info__info-position{
     color: rgba(153, 153, 153, 255);
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -195,12 +212,10 @@ menu{
     width: 332px;
     height: 75px;
     margin-right: 72px;
-    margin-left: 72px;
-    
+    margin-left: 72px; 
 }
 
 .name-team{
-    
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     font-weight: 400;
@@ -218,7 +233,6 @@ menu{
     color: rgba(51, 51, 51, 255);
     text-align: center;
     text-transform: uppercase;
-    
 }
 
 .border-after-bottom{
@@ -255,8 +269,6 @@ menu{
     width: 380px;
     height: auto;
     margin-right: 28px;
-    
-    
 }
 
 .name-photo{
@@ -268,7 +280,6 @@ menu{
     text-align: center;
     margin-top: 31px;
     margin-bottom: 15px;
-    
 }
 
 .photo-info{
@@ -311,7 +322,7 @@ footer{
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     width: 230px;
-    height: 17px;
+    height: 39px;
     color: #ccc;
     font-size: 15px;
     border: 1px solid #e5e5e5;
@@ -351,9 +362,7 @@ button{
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     z-index: 1;
     opacity: 0;
-    transform: translate(0, 0);
-    
-    
+    transform: translate(0, 0);  
 }
 
 .animation-middle{
@@ -362,8 +371,7 @@ button{
     position: absolute;
     background: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
     z-index: 1;
-    opacity: 0;
-    
+    opacity: 0; 
 }
 
 .animation-right{
@@ -400,7 +408,6 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/facebook.svg);
     background-repeat: no-repeat;
     background-position: center;   
     transform: translateX(-2%);
@@ -412,11 +419,9 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/twitter.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(2%);
-    
 }
 
 .pinterest{
@@ -425,18 +430,17 @@ button{
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/pinterest.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(6%);
 }
+
 .instagram{
     position: absolute;
     text-align: center;
     width: 57px;
     height: 57px;
     background: #fce38a;
-    background-image: url(D:\GitHub/Modul10/image/instagram.svg);
     background-repeat: no-repeat;
     background-position: center; 
     transform: translateX(9%);
@@ -472,31 +476,45 @@ button{
 
 
 .facebook:hover{
-    background-image: url(D:\GitHub/Modul10/image/facebook.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
+    
 }
+
 .twitter:hover{
-    background-image: url(D:\GitHub/Modul10/image/twitter.svg);
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-color: #f38181;
-}
-.pinterest:hover{
-    background-image: url(D:\GitHub/Modul10/image/pinterest.svg);
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-color: #f38181;
-}
-.instagram:hover{
-    background-image: url(D:\GitHub/Modul10/image/instagram.svg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: #f38181;
 }
 
-.bar-nav:hover{
+.pinterest:hover{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #f38181;
+}
+
+.instagram:hover{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #f38181;
+}
+
+.icon-facebook{
+    fill: white;
+}
+
+.icon-twitter{
+    fill: white;
+}
+.icon-pinterest{
+    fill: white;
+}
+.icon-instagram{
+    fill: white;
+}
+
+.item-list__nav:hover{
     cursor: pointer;
     color: #fce38a;
     margin-top: 25px;
@@ -504,3 +522,13 @@ button{
     border-bottom: 3px solid #fce38a;
     padding-bottom: 5px;
 }
+.item-list__nav-first:hover{
+    cursor: pointer;
+    color: #fce38a;
+    margin-top: 25px;
+    transition: 0.5s;
+    border-bottom: 3px solid #fce38a;
+    padding-bottom: 5px;
+}
+
+
